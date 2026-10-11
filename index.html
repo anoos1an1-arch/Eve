@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f3ed">
+  <meta name="description" content="مساحة إيـف للملفات والتطبيقات والمونتاج والملحقات">
+  <title>إيـف | مكتبتي الرقمية</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="الصفحة الرئيسية">
+      <span class="brand-mark">E</span><span id="brandName">إيـف</span>
+    </a>
+    <nav class="nav" aria-label="التنقل الرئيسي">
+      <a href="#files">الملفات</a><a href="#apps">التطبيقات</a><a href="#editing">المونتاج</a><a href="#addons">الملحقات</a>
+    </nav>
+    <button class="sound-toggle" id="soundToggle" type="button" aria-pressed="true" title="تشغيل أو إيقاف صوت النقر">♪ <span>الصوت يعمل</span></button>
+  </header>
+
+  <main id="home">
+    <section class="hero glass">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="status-dot"></span> مكتبتي الرقمية</span>
+        <h1>أهلًا بك في مساحة <span id="heroName">إيـف</span></h1>
+        <p id="heroDescription">ملفات، تطبيقات، مشاريع مونتاج وملحقات — مرتبة في مكان واحد.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#files">استكشف الملفات <span>↙</span></a>
+          <a class="button button-light" href="#apps">التطبيقات المستخدمة</a>
+        </div>
+      </div>
+      <div class="profile-wrap">
+        <div class="profile-halo"></div>
+        <img class="profile-image" src="assets/eef-avatar.png" alt="الصورة الشخصية لإيـف">
+        <span class="profile-badge">✦</span>
+      </div>
+      <div class="hero-foot"><span>DESIGNED FOR MOBILE</span><span>✳ &nbsp; إصدار شخصي</span></div>
+    </section>
+
+    <section class="section" id="files">
+      <div class="section-heading"><div><span class="eyebrow">01 / LIBRARY</span><h2>الملفات</h2><p>كل ملفاتك المهمة في مكان واحد.</p></div><span class="section-icon">▤</span></div>
+      <div class="card-grid" id="filesGrid"></div>
+    </section>
+
+    <section class="section" id="apps">
+      <div class="section-heading"><div><span class="eyebrow">02 / TOOLS</span><h2>التطبيقات المستخدمة</h2><p>التطبيقات والأدوات التي أستخدمها.</p></div><span class="section-icon">▦</span></div>
+      <div class="card-grid" id="appsGrid"></div>
+    </section>
+
+    <section class="section" id="editing">
+      <div class="section-heading"><div><span class="eyebrow">03 / CREATIVE</span><h2>قسم المونتاج</h2><p>مشاريع ومصادر وأدوات صناعة المحتوى.</p></div><span class="section-icon">▶</span></div>
+      <div class="card-grid" id="editingGrid"></div>
+    </section>
+
+    <section class="section" id="addons">
+      <div class="section-heading"><div><span class="eyebrow">04 / EXTRAS</span><h2>الملحقات</h2><p>صور، أيقونات، خامات وملحقات متنوعة.</p></div><span class="section-icon">✧</span></div>
+      <div class="card-grid" id="addonsGrid"></div>
+    </section>
+
+    <footer class="footer glass">
+      <div class="footer-brand"><span class="brand-mark">E</span><strong id="footerName">إيـف</strong></div>
+      <p>صُنعت بعناية، لتكون مكتبتك الرقمية أقرب إليك.</p>
+      <a href="#home" class="back-top">العودة للأعلى ↑</a>
+    </footer>
+  </main>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
