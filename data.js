@@ -7,10 +7,10 @@
   - يمكنك رفع ملفاتك إلى مجلد files/ وإضافة رابط مثل files/my-file.zip
 */
 const SITE_DATA = {
-  name: "إيـف",
-  description: "ملفات، تطبيقات، مشاريع مونتاج وملحقات — مرتبة في مكان واحد.",
-  files: [
-    { name: "ملف مونتاج جديد", description: "أضف وصفًا مختصرًا للملف", icon: "▤", image: "", url: "#", label: "ملف" },
+  name: "إيــف",
+  description: "﴿ وَهُوَ مَعَكُمْ أَيْنَ مَا كُنْتُمْ ﴾",
+  التجريب: [
+    { name: "ملف مونتاج جديد", description: "إيـــف", icon: "🫡", image: "🔥", url: "https://t.me/AnasX_Top", label: "ملف" },
     { name: "تصاميم وخامات", description: "صور وموارد للتصميم", icon: "▧", image: "", url: "#", label: "تصميم" },
     { name: "ملفات متنوعة", description: "ملفات وروابط مفيدة", icon: "↗", image: "", url: "#", label: "متنوع" }
   ],
